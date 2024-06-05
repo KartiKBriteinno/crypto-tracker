@@ -1,0 +1,65 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1c;
+        }
+
+        .container {
+            width: 90%;
+            margin: 50px auto;
+            background: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #8e8e8e;
+            color:white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #000000;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .controls input {
+            padding: 10px;
+            width: 850px;
+            background: rgb(0, 0, 0);
+            color:white;
+            border: 1px solid #8e8e8e;
+        }
+
+        .controls button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            background: rgb(0, 0, 0);
+            color:white;
+            border: 1px solid #8e8e8e;
+        }
+
+        #searchInput{
+            color: white;
+        }
+
+ .controls input::placeholder {
+    color: #ffffff;
+}
